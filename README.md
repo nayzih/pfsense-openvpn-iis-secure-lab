@@ -183,7 +183,26 @@ Objective:
 ## Project Structure
 
 <pre>
-
+pfsense-openvpn-iis-secure-lab/
+├── README.md
+├── docs/
+│   ├── ip_addressing_plan.md
+│   ├── logical_architecture.md
+│   └── technical_environment.md
+├── firewall/
+│   ├── lan_firewall_rules.md
+│   ├── openvpn_firewall_rules.md
+│   └── wan_firewall_rules.md
+├── nat/
+│   └── nat_port_forwarding_configuration.md
+├── tests/
+│   ├── internal_access_test.md
+│   ├── vpn_connection_test.md
+│   └── wan_publication_test.md
+└── vpn/
+    ├── openvpn_security_parameters.md
+    ├── openvpn_server_configuration.md
+    └── pki_infrastructure.md
 </pre>
 
 ---
